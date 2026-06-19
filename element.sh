@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# PSQL variable used to query the periodic_table database
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
 if [[ -z $1 ]]
